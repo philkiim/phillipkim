@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html, body {
+  background-color: #DFE0E1;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+header {
+  width: 100%;
+}
+
+.logo {
+  text-align: left;
+  margin: 30px;
+  font-size: 25px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav ul {
+  margin: 0;
+}
+
+.nav li{
+  display: inline-block;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.nav a{
+  text-decoration: none;
+}
+
+.header {
+  background-color: #DFE0E1;
+  padding: 25px;
+  margin: 0px;
+
+}
+
+div.bigimage {
+  padding: 50px;
+  background-image: url("../images/tx2.jpg");
+}
+
+div.main {
+  margin: 100px;
+}
+
+/* 
+
+ABOUT PAGE
+
+*/
+
+section.about {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+section.about h1 {
+  font-size:20px;
+}
+
+section.about h2 {
+  font-size:50px;
+  text-align: center;
+}
+
+
+
+section.about p {
+  font-size:30px;
+  text-align: right;
+}
+
+/* 
+
+STUFF PAGE
+
+*/
+
+section.stuff {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+section.stuff h1 {
+  font-size:20px;
+}
+
+section.stuff p {
+  color: #ededed;
+}
+
+.caption {
+  display: inline;
+}
+
+div.card1 {
+  background-image: url("../images/void.png");
+  text-align: center;
+  padding: 50px;
+  margin: 20px;
+}
+
+div.card2 {
+  background-image: url("../images/void.png");
+  background-size: 1300px;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 50px;
+  margin: 20px;
+}
+
+div.card3 {
+  background-image: url("../images/void.png");
+  text-align: center;
+  padding: 50px;
+  margin: 20px;
+}
+
+div.cardimage {
+  text-align: left;
+  display: inline;
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 40px;
+}
+
+/* 
+
+CONTACT PAGE
+
+*/
+
+section.contact {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+section.contact h1 {
+  font-size:20px;
+}
+
+section.contact p {
+  font-size: 40px;
+  text-align: center;
+}
+
+footer {
+  background-color: #38383B;
+  margin: 0;
+  padding: 65px;
+}
+
+div.social{
+  padding: 30px;
+  margin: 0px;
+  display: block;
+  text-align: center;
+}
+
+.footertext {
+  color: white;
+  text-align: center;
+  margin: 0;
+  /*padding-top: 75px;*/
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
