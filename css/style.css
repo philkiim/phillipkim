@@ -118,8 +118,6 @@ div.card1 {
 
 div.card2 {
   background-image: url("../images/void.png");
-  background-size: 1300px;
-  background-repeat: no-repeat;
   text-align: center;
   padding: 50px;
   margin: 20px;
