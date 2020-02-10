@@ -1,3 +1,3 @@
 # phillipkim
 phillip kim's website
-this is website
+made by me (phil) 
